@@ -11,11 +11,37 @@
         Hello
     </div>
     <?php
-    echo "world";
-
-    $a =2;
-    $b = 4;
+    $a =5;
+    $b = 2;
+    echo $a;
+    echo "<br>";
+    echo $b;
+    echo "<br>";
+    // Arithmetic operator
+    echo "the value of a + b is :";
     echo $a + $b;
+    echo "<br>";
+    echo "the value of a - b is :";
+    echo $a - $b;
+    echo "<br>";
+    echo "the value of a * b is :";
+    echo $a * $b;
+    echo "<br>";
+    echo "the value of a / b is :";
+    echo $a / $b;
+    echo "<br>";
+    // assignment operator
+
+    $var = $a;
+    // $var += $a;
+    // $var -= $a;
+    // $var *= $a;
+    echo "the value of new var is:";
+    echo $var;
+    echo "<br>"
+    // comparison operator
+    
+
     ?>
 </body>
 </html>
