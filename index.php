@@ -38,10 +38,60 @@
     // $var *= $a;
     echo "the value of new var is:";
     echo $var;
-    echo "<br>"
+    echo "<br>";
+    echo "<br>";
     // comparison operator
-    
+    echo "the value of 1==4 is:";
+    echo var_dump(1==4);
+    echo "<br>";
+    echo "the value of 1!=4 is:";
+    echo var_dump(1!=4);
+    echo "<br>";
+    echo "the value of 1>=4 is:";
+    echo var_dump(1>=4);
+    echo "<br>";
+    echo "the value of 1<=4 is:";
+    echo var_dump(1<=4);
+    echo "<br>";
+    echo "<br>";
 
+    //incre/decre operator
+
+    echo $a++;
+    echo "<br>";
+    echo $a;
+    // echo $a--;
+    // echo ++$a;
+    // echo --$a;
+    echo "<br>";
+    echo "<br>";
+    // logical operator
+
+    // and(&&)
+    // or(||)
+    // xor
+    // !
+
+    $Myvar = (true) and (true);
+    echo var_dump($Myvar);
+    echo "<br>";
+    // Data types
+    echo "Datatypes";
+    $c = "string";
+    echo "$c";
+    echo "<br>";
+
+    $c = 10;
+    echo "$c";
+    echo "<br>";
+
+    $c = 10.10;
+    echo "$c";
+    echo "<br>";
+
+    $c = true;
+    echo "$c";
+    echo "<br>";
     ?>
 </body>
 </html>
